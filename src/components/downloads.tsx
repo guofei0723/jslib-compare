@@ -4,19 +4,25 @@ import { Axis, Chart, LineAdvance } from 'bizcharts'
 import numeral from 'numeral'
 import { useNpmRangeData } from '../api'
 
-const compareLibs = ['react', 'vue']
-export default () => {
-  const { data: downloads } = useNpmRangeData('last-month', ...compareLibs)
+interface DataItem {
+  downloads: number
+  day: string
+  lib: string
+}
+
+export default ({ libs }: { libs: string[]}) => {
+  const { data: downloads } = useNpmRangeData('last-month', ...libs)
+
   const data = useMemo(() => {
     if (!downloads) {
       return []
     }
     
-    const dd = compareLibs.reduce((r, n) => {
+    const dd = libs.reduce<DataItem[]>((r, n) => {
       const packageDownloads = downloads.data[n]
       if (packageDownloads) {
         return r.concat(packageDownloads.downloads.map(
-          (dl: { downloads: number, day: string }) => ({ ...dl, lib: n })
+          (dl) => ({ ...dl, lib: n })
         ))
       }
 
@@ -24,7 +30,8 @@ export default () => {
     }, [])
 
     return dd
-  }, [downloads])
+  }, [downloads, libs])
+
   return (
     <Card title='Downloads'>
       <Chart padding={[10, 50, 50]} height={300} autoFit data={data}>
