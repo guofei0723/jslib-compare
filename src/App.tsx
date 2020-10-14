@@ -1,6 +1,6 @@
 import { Layout, Space } from 'antd';
 import React, { useState } from 'react'
-import './App.css'
+import './App.less'
 import { DownloadsChart, TheHeader } from './components'
 
 const { Content } = Layout
