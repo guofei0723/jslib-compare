@@ -1,26 +1,36 @@
-import { Layout, Space } from 'antd';
-import React, { useState } from 'react'
+import React from 'react'
+import { Layout, Space } from 'antd'
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+} from 'react-router-dom'
 import './App.less'
 import { DownloadsChart, TheHeader } from './components'
+import { LibsProvider } from './store'
 
 const { Content } = Layout
 
 function App() {
-  const [libsInComparison, setLibsInComparison] = useState<string[]>([])
-
   return (
-    <div className="App">
-      <Layout>
-        <Content>
-          <TheHeader libsInComparison={libsInComparison} onCompare={setLibsInComparison} />
-          <Space direction='vertical' style={{ display: 'flex', padding: '0 24px'}} size='large'>
-            <DownloadsChart libs={libsInComparison} />
-            <div>next</div>
-            <h2>next again</h2>
-          </Space>
-        </Content>
-      </Layout>
-    </div>
+    <Router>
+      <div className='App'>
+        <Layout>
+          <Content>
+            <Switch>
+              <Route path='/'>
+                <LibsProvider>
+                  <TheHeader />
+                  <Space direction='vertical' style={{ display: 'flex', padding: '0 24px'}} size='large'>
+                    <DownloadsChart />
+                  </Space>
+                </LibsProvider>
+              </Route>
+            </Switch>
+          </Content>
+        </Layout>
+      </div>
+    </Router>
   );
 }
 

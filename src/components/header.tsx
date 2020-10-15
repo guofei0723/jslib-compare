@@ -1,14 +1,23 @@
-import React, { useState, useCallback } from 'react'
+import React, { useState, useCallback, useEffect } from 'react'
 import { PageHeader, Space, Input, Tag, Button } from 'antd'
+import { useHistory } from 'react-router-dom'
+import { useLibs } from '../store'
 
-interface Props {
-  libsInComparison: string[]
-  onCompare: (libs: string[]) => void
-}
-
-export default ({ libsInComparison, onCompare }: Props) => {
-  const [libs, setLibs] = useState<string[]>(libsInComparison)
+export default () => {
+  const history = useHistory()
+  const libsInUrl = useLibs()
+  const [libs, setLibs] = useState<string[]>(libsInUrl)
   const [newLib, setNewLib] = useState<string>('')
+
+  useEffect(() => {
+    setLibs(prevLibs => {
+      if (prevLibs.join(',') !== libsInUrl.join(',')) {
+        return libsInUrl
+      }
+
+      return prevLibs
+    })
+  }, [libsInUrl])
 
   const addNewLib = useCallback(() => {
     if (newLib) {
@@ -78,8 +87,8 @@ export default ({ libsInComparison, onCompare }: Props) => {
         </div>
         <Button
           type='primary'
-          onClick={() => onCompare(libs)}
-          disabled={libs === libsInComparison || libs.length === 0}
+          onClick={() => history.push(`/?libs=${libs.join(',')}`)}
+          disabled={libs === libsInUrl || libs.length === 0}
         >
           Compare
         </Button>

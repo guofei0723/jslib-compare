@@ -5,6 +5,7 @@ import numeral from 'numeral'
 import moment from 'moment'
 import { useNpmRangeData } from '../api'
 import Options, { Range, TimeType } from './downloads-options'
+import { useLibs } from '../store'
 
 
 interface DataItem {
@@ -17,7 +18,8 @@ interface DataItem {
 const lastYear = [moment().subtract(1, 'year'), moment().subtract(1, 'day')]
 const lastYearStr = lastYear.map(r => r.format('YYYY-MM-DD')).join(':')
 
-export default ({ libs }: { libs: string[]}) => {
+export default () => {
+  const libs = useLibs()
   const [dateRange, setDateRange] = useState<Range | null>(lastYear as Range)
   const [rangeStr, setRangeStr] = useState(lastYearStr)
   const [timeType, setTimeType] = useState<TimeType>('weekly')
