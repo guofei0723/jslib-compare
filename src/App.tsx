@@ -5,6 +5,7 @@ import {
   Route,
   Switch,
 } from 'react-router-dom'
+import { SWRConfig } from 'swr'
 import './App.less'
 import { DownloadsChart, TheHeader } from './components'
 import { LibsProvider } from './store'
@@ -19,12 +20,19 @@ function App() {
           <Content>
             <Switch>
               <Route path='/'>
-                <LibsProvider>
-                  <TheHeader />
-                  <Space direction='vertical' style={{ display: 'flex', padding: '0 24px'}} size='large'>
-                    <DownloadsChart />
-                  </Space>
-                </LibsProvider>
+                <SWRConfig
+                  value={{
+                    revalidateOnFocus: false,
+                    shouldRetryOnError: false,
+                  }}
+                >
+                  <LibsProvider>
+                    <TheHeader />
+                    <Space direction='vertical' style={{ display: 'flex', padding: '0 24px'}} size='large'>
+                      <DownloadsChart />
+                    </Space>
+                  </LibsProvider>
+                </SWRConfig>
               </Route>
             </Switch>
           </Content>

@@ -32,7 +32,7 @@ export default () => {
     }
     
     const dd = libs.reduce<DataItem[]>((r, n) => {
-      const packageDownloads = downloads.data[n]
+      const packageDownloads = downloads[n]
       if (packageDownloads) {
         return r.concat(packageDownloads.downloads.map(
           (dl) => ({ ...dl, lib: n })
@@ -57,7 +57,7 @@ export default () => {
     }
 
     return libs.reduceRight<DataItem[]>((result, lib) => {
-      const libDownloads = downloads.data[lib]?.downloads || []
+      const libDownloads = downloads[lib]?.downloads || []
       
       let lastDay: moment.Moment | null = null
       let item: DataItem = {
