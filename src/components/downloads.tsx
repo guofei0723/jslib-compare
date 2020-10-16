@@ -119,6 +119,11 @@ export default () => {
         height={300}
         autoFit
         data={timeType === 'weekly' ? dataWeekly : excludeWeekends ? dataWithoutWeekends : data}
+        scale={{
+          downloads: {
+            min: 0,
+          }
+        }}
       >
         <Axis
           name='downloads'
