@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.230f8324.chunk.css",
-    "main.js": "/static/js/main.1c4ab0a0.chunk.js",
-    "main.js.map": "/static/js/main.1c4ab0a0.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3b3fd28b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3b3fd28b.js.map",
-    "static/js/2.49f2f601.chunk.js": "/static/js/2.49f2f601.chunk.js",
-    "static/js/2.49f2f601.chunk.js.map": "/static/js/2.49f2f601.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.85702cf10b57b880d94477804440b478.js": "/precache-manifest.85702cf10b57b880d94477804440b478.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.230f8324.chunk.css.map": "/static/css/main.230f8324.chunk.css.map",
-    "static/js/2.49f2f601.chunk.js.LICENSE.txt": "/static/js/2.49f2f601.chunk.js.LICENSE.txt"
+    "main.css": "https://guofei0723.github.io/jslib-compare/static/css/main.5bb61ec4.chunk.css",
+    "main.js": "https://guofei0723.github.io/jslib-compare/static/js/main.b9e96f33.chunk.js",
+    "main.js.map": "https://guofei0723.github.io/jslib-compare/static/js/main.b9e96f33.chunk.js.map",
+    "runtime-main.js": "https://guofei0723.github.io/jslib-compare/static/js/runtime-main.5a1ac9ef.js",
+    "runtime-main.js.map": "https://guofei0723.github.io/jslib-compare/static/js/runtime-main.5a1ac9ef.js.map",
+    "static/js/2.49f2f601.chunk.js": "https://guofei0723.github.io/jslib-compare/static/js/2.49f2f601.chunk.js",
+    "static/js/2.49f2f601.chunk.js.map": "https://guofei0723.github.io/jslib-compare/static/js/2.49f2f601.chunk.js.map",
+    "index.html": "https://guofei0723.github.io/jslib-compare/index.html",
+    "precache-manifest.a91596129a4dc0378e3f50e9d5b43600.js": "https://guofei0723.github.io/jslib-compare/precache-manifest.a91596129a4dc0378e3f50e9d5b43600.js",
+    "service-worker.js": "https://guofei0723.github.io/jslib-compare/service-worker.js",
+    "static/css/main.5bb61ec4.chunk.css.map": "https://guofei0723.github.io/jslib-compare/static/css/main.5bb61ec4.chunk.css.map",
+    "static/js/2.49f2f601.chunk.js.LICENSE.txt": "https://guofei0723.github.io/jslib-compare/static/js/2.49f2f601.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3b3fd28b.js",
+    "static/js/runtime-main.5a1ac9ef.js",
     "static/js/2.49f2f601.chunk.js",
-    "static/css/main.230f8324.chunk.css",
-    "static/js/main.1c4ab0a0.chunk.js"
+    "static/css/main.5bb61ec4.chunk.css",
+    "static/js/main.b9e96f33.chunk.js"
   ]
 }
