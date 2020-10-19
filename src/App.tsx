@@ -16,7 +16,7 @@ function App() {
   return (
     <Router>
       <div className='App'>
-        <Layout>
+        <Layout style={{ minHeight: '100%' }}>
           <Content>
             <Switch>
               <Route path='/'>
