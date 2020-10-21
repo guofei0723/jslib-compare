@@ -1,5 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react'
 import { PageHeader, Space, Input, Tag, Button } from 'antd'
+import { GithubOutlined } from '@ant-design/icons'
 import { useHistory } from 'react-router-dom'
 import { useLibs } from '../store'
 
@@ -36,6 +37,17 @@ export default () => {
     <PageHeader
       title='JS Compare'
       backIcon={false}
+      extra={(
+        <a
+          href='https://github.com/guofei0723/jslib-compare'
+          style={{
+            fontSize: '1.5em',
+            color: 'inherit',
+          }}
+        >
+          <GithubOutlined />
+        </a>
+      )}
     >
       <Space direction='vertical'>
         <div style={{ display: 'inline-block' }}>
