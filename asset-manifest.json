@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "https://guofei0723.github.io/jslib-compare/static/css/main.5bb61ec4.chunk.css",
-    "main.js": "https://guofei0723.github.io/jslib-compare/static/js/main.b9e96f33.chunk.js",
-    "main.js.map": "https://guofei0723.github.io/jslib-compare/static/js/main.b9e96f33.chunk.js.map",
+    "main.css": "https://guofei0723.github.io/jslib-compare/static/css/main.a2d1ba11.chunk.css",
+    "main.js": "https://guofei0723.github.io/jslib-compare/static/js/main.1ecf9e8d.chunk.js",
+    "main.js.map": "https://guofei0723.github.io/jslib-compare/static/js/main.1ecf9e8d.chunk.js.map",
     "runtime-main.js": "https://guofei0723.github.io/jslib-compare/static/js/runtime-main.5a1ac9ef.js",
     "runtime-main.js.map": "https://guofei0723.github.io/jslib-compare/static/js/runtime-main.5a1ac9ef.js.map",
-    "static/js/2.49f2f601.chunk.js": "https://guofei0723.github.io/jslib-compare/static/js/2.49f2f601.chunk.js",
-    "static/js/2.49f2f601.chunk.js.map": "https://guofei0723.github.io/jslib-compare/static/js/2.49f2f601.chunk.js.map",
+    "static/js/2.d52ca4fd.chunk.js": "https://guofei0723.github.io/jslib-compare/static/js/2.d52ca4fd.chunk.js",
+    "static/js/2.d52ca4fd.chunk.js.map": "https://guofei0723.github.io/jslib-compare/static/js/2.d52ca4fd.chunk.js.map",
     "index.html": "https://guofei0723.github.io/jslib-compare/index.html",
-    "precache-manifest.a91596129a4dc0378e3f50e9d5b43600.js": "https://guofei0723.github.io/jslib-compare/precache-manifest.a91596129a4dc0378e3f50e9d5b43600.js",
+    "precache-manifest.80f4839197c9afe5e0abd1332adf62b6.js": "https://guofei0723.github.io/jslib-compare/precache-manifest.80f4839197c9afe5e0abd1332adf62b6.js",
     "service-worker.js": "https://guofei0723.github.io/jslib-compare/service-worker.js",
-    "static/css/main.5bb61ec4.chunk.css.map": "https://guofei0723.github.io/jslib-compare/static/css/main.5bb61ec4.chunk.css.map",
-    "static/js/2.49f2f601.chunk.js.LICENSE.txt": "https://guofei0723.github.io/jslib-compare/static/js/2.49f2f601.chunk.js.LICENSE.txt"
+    "static/css/main.a2d1ba11.chunk.css.map": "https://guofei0723.github.io/jslib-compare/static/css/main.a2d1ba11.chunk.css.map",
+    "static/js/2.d52ca4fd.chunk.js.LICENSE.txt": "https://guofei0723.github.io/jslib-compare/static/js/2.d52ca4fd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5a1ac9ef.js",
-    "static/js/2.49f2f601.chunk.js",
-    "static/css/main.5bb61ec4.chunk.css",
-    "static/js/main.b9e96f33.chunk.js"
+    "static/js/2.d52ca4fd.chunk.js",
+    "static/css/main.a2d1ba11.chunk.css",
+    "static/js/main.1ecf9e8d.chunk.js"
   ]
 }
