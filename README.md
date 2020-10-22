@@ -2,7 +2,7 @@
 
 A tool for comparing js libraries.
 
-[Try this tool](https://guofei0723.github.io/jslib-compare)
+[Try this tool](https://nonetools.github.io/jslib-compare/)
 
 ---
 
