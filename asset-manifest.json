@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "https://guofei0723.github.io/jslib-compare/static/css/main.a2d1ba11.chunk.css",
-    "main.js": "https://guofei0723.github.io/jslib-compare/static/js/main.1ecf9e8d.chunk.js",
-    "main.js.map": "https://guofei0723.github.io/jslib-compare/static/js/main.1ecf9e8d.chunk.js.map",
-    "runtime-main.js": "https://guofei0723.github.io/jslib-compare/static/js/runtime-main.5a1ac9ef.js",
-    "runtime-main.js.map": "https://guofei0723.github.io/jslib-compare/static/js/runtime-main.5a1ac9ef.js.map",
-    "static/js/2.d52ca4fd.chunk.js": "https://guofei0723.github.io/jslib-compare/static/js/2.d52ca4fd.chunk.js",
-    "static/js/2.d52ca4fd.chunk.js.map": "https://guofei0723.github.io/jslib-compare/static/js/2.d52ca4fd.chunk.js.map",
-    "index.html": "https://guofei0723.github.io/jslib-compare/index.html",
-    "precache-manifest.80f4839197c9afe5e0abd1332adf62b6.js": "https://guofei0723.github.io/jslib-compare/precache-manifest.80f4839197c9afe5e0abd1332adf62b6.js",
-    "service-worker.js": "https://guofei0723.github.io/jslib-compare/service-worker.js",
-    "static/css/main.a2d1ba11.chunk.css.map": "https://guofei0723.github.io/jslib-compare/static/css/main.a2d1ba11.chunk.css.map",
-    "static/js/2.d52ca4fd.chunk.js.LICENSE.txt": "https://guofei0723.github.io/jslib-compare/static/js/2.d52ca4fd.chunk.js.LICENSE.txt"
+    "main.css": "/jslib-compare/static/css/main.a2d1ba11.chunk.css",
+    "main.js": "/jslib-compare/static/js/main.a6b3ace5.chunk.js",
+    "main.js.map": "/jslib-compare/static/js/main.a6b3ace5.chunk.js.map",
+    "runtime-main.js": "/jslib-compare/static/js/runtime-main.65b8f16d.js",
+    "runtime-main.js.map": "/jslib-compare/static/js/runtime-main.65b8f16d.js.map",
+    "static/js/2.d52ca4fd.chunk.js": "/jslib-compare/static/js/2.d52ca4fd.chunk.js",
+    "static/js/2.d52ca4fd.chunk.js.map": "/jslib-compare/static/js/2.d52ca4fd.chunk.js.map",
+    "index.html": "/jslib-compare/index.html",
+    "precache-manifest.ceb442c0f486f9d7870be0bda7341673.js": "/jslib-compare/precache-manifest.ceb442c0f486f9d7870be0bda7341673.js",
+    "service-worker.js": "/jslib-compare/service-worker.js",
+    "static/css/main.a2d1ba11.chunk.css.map": "/jslib-compare/static/css/main.a2d1ba11.chunk.css.map",
+    "static/js/2.d52ca4fd.chunk.js.LICENSE.txt": "/jslib-compare/static/js/2.d52ca4fd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5a1ac9ef.js",
+    "static/js/runtime-main.65b8f16d.js",
     "static/js/2.d52ca4fd.chunk.js",
     "static/css/main.a2d1ba11.chunk.css",
-    "static/js/main.1ecf9e8d.chunk.js"
+    "static/js/main.a6b3ace5.chunk.js"
   ]
 }
