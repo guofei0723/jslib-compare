@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "58f6f10f548c4c0072f0e7310f0619a3",
+    "revision": "da28cea7376e9de25428feec276dde81",
     "url": "/jslib-compare/index.html"
   },
   {
