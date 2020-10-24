@@ -14,7 +14,7 @@ const { Content } = Layout
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className='App'>
         <Layout style={{ minHeight: '100%' }}>
           <Content>
